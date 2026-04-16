@@ -1,5 +1,6 @@
 def aprovar(idade, renda, valor, parcelas):
-    return True  
+    return True
+
 def definir_taxa(parcelas):
     return 0.02
 
