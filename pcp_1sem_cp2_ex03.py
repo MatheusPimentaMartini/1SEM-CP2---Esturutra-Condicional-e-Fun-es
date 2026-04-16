@@ -1,5 +1,5 @@
 nome_do_funcionario = input("Digite seu nome:\n")
-cargo = input("Digite seu cargo (Gerente, Analista, Assistente, Estagíário):\n")
+cargo = input("Digite seu cargo (Gerente, Analista, Assistente, Estagiário):\n")
 salario_base = float(input("Digite seu salario base por mês em R$:\n"))
 horas = int(input("Digite quantas horas extras você trabalhou:\n"))
 faltas = int(input("Digite quantas vezes você faltou no mês:\n"))
@@ -41,5 +41,5 @@ salario_final = salario_bruto - total_descontos
 
 print("O seu salario bruto desse mês é de: ", salario_bruto)
 print("O total de acréscimos desse mês foi de: ", total_acrescimos)
-print("O tatal de descontos desse mês foi de: ", total_descontos)
+print("O total de descontos desse mês foi de: ", total_descontos)
 print("O seu salário liquido desse mês é de: ", salario_final) 
