@@ -48,11 +48,11 @@ elif (lado_3 == lado_2) > lado_1:
 print("Classificção do Triângulo com base nos ângulos")
 if A >= (B + C):
     print("Os lados não formam um Triângulo\n")
-elif A*2 == (B2 + C*2):
+elif A**2 == (B**2 + C**2):
     print("Os ângulos formam um Triângulo Retângulo\n")
-elif A*2 > (B2 + C*2):
+elif A**2 > (B**2 + C**2):
     print("Os ângulos formam um Triângulo Obtusângulo\n")
-elif A*2 < (B2 + C*2):
+elif A**2 < (B**2 + C**2):
     print("Os ângulos formam um Triângulo Acutângulo\n")
 else:
     print("ERRO!")
