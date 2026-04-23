@@ -10,7 +10,7 @@ while True:
     if codigo_origem < 1 or codigo_origem > 5:
         print("Número inválido, tente novamente.\n")
     else:
-        str("Número válido!")
+        
         break
 
 #Peso da carga do caminhão em toneladas
@@ -23,7 +23,7 @@ while True:
     if codigo_carga < 10 or codigo_carga > 40:
         print("Codigo invalido, digite novamente:\n")
     else:
-        str("Codigo valido!")
+        
         break
    
 #SEU PROGRAMA DEVE CALCULAR:
@@ -57,7 +57,7 @@ def valor_imposto(codigo_origem, preco):
     elif codigo_origem == 3:
         imposto = preco * 0.15
     elif codigo_origem == 4:
-        imposto = preco * 0.15
+        imposto = preco * 0.05
     else:
         imposto = 0
 
@@ -67,5 +67,7 @@ def valor_imposto(codigo_origem, preco):
 preco = preço_carga(codigo_carga, peso_quilos)
 imposto = valor_imposto(codigo_origem, preco)
 total = preco + imposto
-print(f"\nO total é de:{total:.2f}")
-print(peso_quilos)
+print(f"\nPeso da carga em quilos: {peso_quilos:.2f} kg")
+print(f"Preço da carga: R$ {preco:.2f}")
+print(f"Valor do imposto: R$ {imposto:.2f}")
+print(f"Valor total transportado (carga + impostos): R$ {total:.2f}")

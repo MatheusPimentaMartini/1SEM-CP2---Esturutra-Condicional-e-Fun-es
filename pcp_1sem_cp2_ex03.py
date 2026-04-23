@@ -10,7 +10,7 @@ menor = 0
 
 if CP1 < CP2 and CP1 < CP3:
     menor = CP1
-elif CP2 < CP3 and CP2 < CP3:
+elif CP2 < CP1 and CP2 < CP3:
     menor = CP2
 else:
     menor = CP3

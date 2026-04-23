@@ -21,7 +21,7 @@ def pode_aprovar(idade, renda, valor):
 def definir_taxa(parcelas):
     if parcelas < 7:
         taxa = 0.05
-    elif parcelas > 7 and parcelas < 13:
+    elif parcelas >= 7 and parcelas < 13:
         taxa = 0.08
     else:
         taxa = 0.1

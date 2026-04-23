@@ -45,22 +45,22 @@ elif (lado_3 == lado_2) > lado_1:
     C = lado_1
 
 
-print("Classificção do Triângulo com base nos ângulos")
+# Classificação com base nos ângulos
+print("\nClassificação do Triângulo com base nos ângulos:")
 if A >= (B + C):
-    print("Os lados não formam um Triângulo\n")
+    print("NAO FORMA TRIANGULO")
 elif A**2 == (B**2 + C**2):
-    print("Os ângulos formam um Triângulo Retângulo\n")
+    print("TRIANGULO RETANGULO")
 elif A**2 > (B**2 + C**2):
-    print("Os ângulos formam um Triângulo Obtusângulo\n")
-elif A**2 < (B**2 + C**2):
-    print("Os ângulos formam um Triângulo Acutângulo\n")
+    print("TRIANGULO OBTUSANGULO")
 else:
-    print("ERRO!")
+    print("TRIANGULO ACUTANGULO")
 
-print("Classificação do Triângulo com base nos lados")
+# Classificação com base nos lados
+print("\nClassificação do Triângulo com base nos lados:")
 if A == B == C:
-    print("Os lados do Triângulo formam um Triângulo Equilatero")
-elif A == B != C or A == C != B or B == C != A:
-    print("Os lados do Triângulo formam um Triângulo Isosceles")
+    print("TRIANGULO EQUILATERO")
+elif A == B or B == C or A == C:
+    print("TRIANGULO ISOSCELES")
 else:
-    print("Não possui classificação com base nos lados")
+    print("TRIANGULO ESCALENO")
